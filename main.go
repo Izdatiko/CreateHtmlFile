@@ -64,7 +64,7 @@ func main() {
 		fmt.Println("В данной директории нет .css файла.")
 	}
 
-	file, err := CreateHtmlFile("market", "marketplace", cssFile)
+	file, err := CreateHtmlFile("index", "index", cssFile)
 	if err != nil {
 		fmt.Printf("Ошибка при создании HTML-файла: %s\n", err)
 		return
